@@ -40,17 +40,35 @@ body > .container {
     padding-left: 15px;
 }
 
-
+.navbar-brand {
+}
 
 .navbar{
-    height: 80px;
+    padding: 0;
 }
 
  .gamburger{
     background-color: #736f6f;
-    width: 40%;
-    max-width: 450px;
+
+}
+.bell {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.roletown{
     height: 100%;
+    background-color: #736f6f;
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: 6.5px;
+    color: #f3f3f2;
+    text-transform: uppercase;
 }
 
 .navbar-link {
