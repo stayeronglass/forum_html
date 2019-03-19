@@ -39,18 +39,22 @@ body > .container {
     padding-right: 15px;
     padding-left: 15px;
 }
+.navbar {
+    min-height: 80px;
+}
 
 .navbar-brand {
-}
-
-.navbar{
-    padding: 0;
-}
-
- .gamburger{
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
     background-color: #736f6f;
-
 }
+
+.navbar-bell{
+    cursor: pointer;
+}
+
+
 .bell {
     width: 24px;
     height: 24px;
@@ -58,7 +62,6 @@ body > .container {
 }
 
 .roletown{
-    height: 100%;
     background-color: #736f6f;
     opacity: 0.5;
     font-size: 20px;
